@@ -73,3 +73,11 @@ def final_grade(exam, projects):
         return 75
     else:
         return 0
+
+# 10
+
+def is_even(n): 
+    if n % 2 == 0:
+        return True
+    else:
+        return False
