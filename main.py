@@ -163,3 +163,12 @@ def positive_sum(arr):
         if num > 0:
             total += num
     return total
+
+# 21
+
+def square_digits(num):
+    result = ""
+    
+    for digit in str(num):
+            result += str(int(digit) ** 2)
+    return int(result)
