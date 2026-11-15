@@ -7,3 +7,8 @@ def boolean_to_string(b):
 
 def opposite(number):
     return -number
+
+# 3 
+
+def double_integer(i):
+    return i + i
