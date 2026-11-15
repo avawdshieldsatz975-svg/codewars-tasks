@@ -282,3 +282,11 @@ def find_needle(haystack):
     for i in range(len(haystack)):
         if haystack[i] == "needle":
             return "found the needle at position " + str(i)
+
+# 35
+
+def bool_to_word(boolean):
+    if boolean == True:
+        return "Yes"
+    else:
+        return "No"
