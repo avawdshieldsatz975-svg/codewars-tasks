@@ -86,3 +86,8 @@ def is_even(n):
 
 def unusual_five():
     return len("ptprp")
+
+# 12 
+
+def string_to_number(s):
+    return int(s)
