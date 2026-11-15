@@ -263,3 +263,10 @@ def are_you_playing_banjo(name):
 
 def find_smallest_int(arr):
     return min(arr)
+
+# 32
+
+def paperwork(n, m):
+    if n < 0 or m < 0:
+        return 0
+    return n * m
