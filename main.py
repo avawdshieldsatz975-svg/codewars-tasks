@@ -137,3 +137,18 @@ def odd_or_even(arr):
         return "even"
     elif sum(arr) % 2 != 0:
         return "odd"
+
+# 19
+
+def count_positives_sum_negatives(arr):
+    if not arr:
+        return []
+    count = 0
+    total = 0
+    
+    for num in arr:
+        if num > 0:
+            count += 1
+        elif num <= 0:
+            total += num
+    return [count,total]
