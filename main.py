@@ -258,3 +258,8 @@ def are_you_playing_banjo(name):
         return name + " plays banjo"
     else:
         return name + " does not play banjo"
+
+# 31
+
+def find_smallest_int(arr):
+    return min(arr)
