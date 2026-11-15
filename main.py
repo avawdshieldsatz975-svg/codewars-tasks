@@ -46,3 +46,11 @@ def switch_it_up(number):
         return("Nine")
     elif number==0:
         return "Zero"
+
+# 7 
+
+def better_than_average(class_points, your_points):
+    average_score = sum(class_points) / len(class_points)
+    if your_points > average_score:
+        return True
+    else: return False
