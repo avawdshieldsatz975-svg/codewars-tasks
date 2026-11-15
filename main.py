@@ -190,3 +190,15 @@ def set_alarm(employed, vacation):
 
 def square(n):
     return n ** 2
+
+# 25 
+
+def basic_op(operator, value1, value2):
+    if operator == "+" :
+        return value1 + value2
+    elif operator == "-" :
+        return value1 - value2
+    elif operator == "*" :
+        return value1 * value2
+    elif operator == "/":
+        return value1 / value2
