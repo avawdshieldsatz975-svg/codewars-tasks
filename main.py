@@ -116,3 +116,11 @@ def greet(name, owner):
         return "Hello boss"
     else:
         return "Hello guest"
+
+# 16
+
+def maps(a):
+    result = []
+    for number in a:
+        result.append(number * 2)
+    return result
