@@ -124,3 +124,8 @@ def maps(a):
     for number in a:
         result.append(number * 2)
     return result
+
+# 17
+
+def greet(name):
+    return f"Hello, {name} how are you doing today?"
