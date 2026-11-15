@@ -129,3 +129,11 @@ def maps(a):
 
 def greet(name):
     return f"Hello, {name} how are you doing today?"
+
+# 18 
+
+def odd_or_even(arr):
+    if sum(arr) % 2 == 0:
+        return "even"
+    elif sum(arr) % 2 != 0:
+        return "odd"
