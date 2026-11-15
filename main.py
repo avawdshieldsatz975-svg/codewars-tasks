@@ -81,3 +81,8 @@ def is_even(n):
         return True
     else:
         return False
+
+# 11
+
+def unusual_five():
+    return len("ptprp")
