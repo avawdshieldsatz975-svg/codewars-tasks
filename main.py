@@ -177,3 +177,11 @@ def square_digits(num):
 
 def goals(laLiga, copaDelRey, championsLeague):
     return laLiga + copaDelRey + championsLeague
+
+# 23
+
+def set_alarm(employed, vacation):
+    if employed == True and vacation == False:
+        return True
+    else:
+        return False
