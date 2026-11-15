@@ -211,3 +211,21 @@ def zero_fuel(distance_to_pump, mpg, fuel_left):
         return True
     else:
         return False
+
+# 27 
+
+def human_years_cat_years_dog_years(human_years):
+    catYears = 0
+    dogYears = 0
+
+    if human_years == 1:
+        catYears = 15
+        dogYears = 15
+    elif human_years == 2:
+        catYears = 24
+        dogYears = 24
+    else:
+        catYears = 24 + (human_years - 2) * 4
+        dogYears = 24 + (human_years - 2) * 5
+
+    return [human_years, catYears, dogYears]
