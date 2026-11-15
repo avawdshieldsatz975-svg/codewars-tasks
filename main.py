@@ -54,3 +54,10 @@ def better_than_average(class_points, your_points):
     if your_points > average_score:
         return True
     else: return False
+
+# 8
+
+def hoop_count(n):
+    if n >= 10:
+        return "Great, now move on to tricks"
+    else: return "Keep at it until you get it"
