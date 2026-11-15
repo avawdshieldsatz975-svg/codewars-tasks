@@ -17,3 +17,8 @@ def double_integer(i):
 
 def number_to_string(num : int) -> str:
     return str(num)
+
+# 5
+
+def sum_array(a):
+    return sum(a)
