@@ -185,3 +185,8 @@ def set_alarm(employed, vacation):
         return True
     else:
         return False
+
+# 24
+
+def square(n):
+    return n ** 2
