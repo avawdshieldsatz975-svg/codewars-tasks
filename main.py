@@ -229,3 +229,11 @@ def human_years_cat_years_dog_years(human_years):
         dogYears = 24 + (human_years - 2) * 5
 
     return [human_years, catYears, dogYears]
+
+# 28
+
+def sum_array(arr):
+    if arr is None or len(arr) < 2:
+        return 0
+
+    return sum(arr) - max(arr) - min(arr)
