@@ -172,3 +172,8 @@ def square_digits(num):
     for digit in str(num):
             result += str(int(digit) ** 2)
     return int(result)
+
+# 22 
+
+def goals(laLiga, copaDelRey, championsLeague):
+    return laLiga + copaDelRey + championsLeague
