@@ -12,3 +12,8 @@ def opposite(number):
 
 def double_integer(i):
     return i + i
+
+# 4
+
+def number_to_string(num : int) -> str:
+    return str(num)
