@@ -108,3 +108,11 @@ def lovefunc( flower1, flower2 ):
         return True
     else:
         return False
+
+# 15
+
+def greet(name, owner):
+    if name == owner:
+        return "Hello boss"
+    else:
+        return "Hello guest"
