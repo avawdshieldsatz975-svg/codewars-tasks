@@ -2,3 +2,8 @@
 
 def boolean_to_string(b):
     return str(b)
+
+# 2
+
+def opposite(number):
+    return -number
