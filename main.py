@@ -91,3 +91,10 @@ def unusual_five():
 
 def string_to_number(s):
     return int(s)
+
+# 13
+
+def get_sum(a,b):
+    return sum(range(min(a, b), max(a, b) + 1))
+    if a == b:
+        return a
