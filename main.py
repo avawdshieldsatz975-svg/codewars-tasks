@@ -152,3 +152,14 @@ def count_positives_sum_negatives(arr):
         elif num <= 0:
             total += num
     return [count,total]
+
+# 20
+
+def positive_sum(arr):
+    if not arr:
+        return 0
+    total = 0
+    for num in arr:
+        if num > 0:
+            total += num
+    return total
