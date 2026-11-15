@@ -237,3 +237,16 @@ def sum_array(arr):
         return 0
 
     return sum(arr) - max(arr) - min(arr)
+
+# 29
+
+def fake_bin(x):
+    result = ""
+
+    for i in x:
+        if int(i) < 5:
+            result += "0"
+        else:
+            result += "1"
+
+    return result
